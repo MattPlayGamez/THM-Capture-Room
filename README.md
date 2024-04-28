@@ -35,6 +35,7 @@ url: The full URL for the requests.
 ```
 ### How It Works
 The script works by attempting to solve the captcha for each (POST) request and then brute forcing the username and password fields on the website. If it finds a valid username and password, it writes the successful login page to successfull_login.html and prints the cracked password, the time it took to crack the password.
-```
+
 
 ### Note: Before using, force the captcha, by putting in the wrong combination multiple times
+https://tryhackme.com/r/room/capture
